@@ -28,7 +28,7 @@ function start() {
       feedback.innerHTML = motivation[reps_completed];
       reps_completed++;
     }
-  }, 3000);
+  }, 2000);
 }
 
 btn.addEventListener("click",start);
